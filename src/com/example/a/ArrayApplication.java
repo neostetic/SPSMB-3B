@@ -16,6 +16,8 @@ public class ArrayApplication {
         int[] array = ArrayUtils.generate(length, min, max);
 
         ArrayUtils.print(array);
+        ArrayUtils.sum(array);
+        ArrayUtils.average(array);
 
     }
 

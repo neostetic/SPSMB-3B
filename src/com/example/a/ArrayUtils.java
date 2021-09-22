@@ -1,5 +1,7 @@
 package com.example.a;
 
+import java.util.Arrays;
+
 public class ArrayUtils {
 
 
@@ -19,6 +21,15 @@ public class ArrayUtils {
         for (int j : array) {
             System.out.print(j + ", ");
         }
+    }
+
+    public static int sum(int[] array) {
+        return Arrays.stream(array).sum();
+
+    }
+
+    public static double average(int[] array) {
+        return Arrays.stream(array).average().getAsDouble();
     }
 
 }
