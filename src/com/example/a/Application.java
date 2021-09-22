@@ -12,6 +12,7 @@ public class Application {
             int factorial = MathUtils.factorial(a);
             System.out.println("---------------");
             System.out.println(a + "! = " + factorial);
+
         }
     }
 }
