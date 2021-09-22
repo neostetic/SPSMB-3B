@@ -15,9 +15,7 @@ public class ArrayApplication {
         int max = sc.nextInt();
         int[] array = ArrayUtils.generate(length, min, max);
 
-        for (int j : array) {
-            System.out.print(j + ", ");
-        }
+        ArrayUtils.print(array);
 
     }
 
