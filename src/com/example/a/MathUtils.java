@@ -43,4 +43,10 @@ public class MathUtils {
         }
         return true;
     }
+
+    public static int random(int min, int max) {
+
+        return (int) (min + (Math.random()*(max - min)));
+
+    }
 }
