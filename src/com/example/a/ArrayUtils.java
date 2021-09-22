@@ -15,4 +15,10 @@ public class ArrayUtils {
         return array;
     }
 
+    public static void print(int[] array) {
+        for (int j : array) {
+            System.out.print(j + ", ");
+        }
+    }
+
 }
